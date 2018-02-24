@@ -23,6 +23,9 @@ namespace ADOExample
                 Console.WriteLine($"Invoice id {invoice.InvoiceId} was shipped to {invoice.BillingAddress}.");
             }
 
+            var invoiceModifier = new InvoiceModifier();
+            invoiceModifier.Delete(1);
+
             Console.ReadLine();
         }
     }
