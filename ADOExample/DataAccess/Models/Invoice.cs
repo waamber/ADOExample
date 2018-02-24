@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ADOExample.DataAccess
+namespace ADOExample.DataAccess.Models
 {
     internal class Invoice
     {
